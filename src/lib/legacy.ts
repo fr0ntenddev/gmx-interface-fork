@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 import { BigNumber, ethers } from "ethers";
 import { getContract } from "config/contracts";
 import useSWR from "swr";

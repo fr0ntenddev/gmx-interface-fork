@@ -4,7 +4,7 @@ import "./AssetDropdown.css";
 import coingeckoIcon from "img/ic_coingecko_16.svg";
 import metamaskIcon from "img/ic_metamask_16.svg";
 import nansenPortfolioIcon from "img/nansen_portfolio.svg";
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 
 import { t, Trans } from "@lingui/macro";
 import ExternalLink from "components/ExternalLink/ExternalLink";

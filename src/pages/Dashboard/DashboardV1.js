@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import useSWR from "swr";
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 
 import cx from "classnames";
 import { getContract, XGMT_EXCLUDED_ACCOUNTS } from "config/contracts";

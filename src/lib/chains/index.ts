@@ -1,4 +1,4 @@
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 import { SELECTED_NETWORK_LOCAL_STORAGE_KEY } from "config/localStorage";
 import { DEFAULT_CHAIN_ID, SUPPORTED_CHAIN_IDS } from "config/chains";
 

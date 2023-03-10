@@ -1,4 +1,4 @@
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 import cx from "classnames";
 
 import { NavLink } from "react-router-dom";

@@ -4,7 +4,7 @@ import { Trans } from "@lingui/macro";
 
 import { isHomeSite } from "lib/legacy";
 
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 
 import APRLabel from "../APRLabel/APRLabel";
 import { HeaderLink } from "../Header/HeaderLink";

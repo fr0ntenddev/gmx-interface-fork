@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useMemo, useCallback, forwardRef, useImperativeHandle } from "react";
 import { Trans, t, Plural } from "@lingui/macro";
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 import useSWR from "swr";
 import { ethers } from "ethers";
 import cx from "classnames";

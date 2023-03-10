@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 
 export enum AccountType {
   CONTRACT = "contract",
@@ -13,6 +13,8 @@ export default function useAccountType() {
   useEffect(() => {
     if (!active) return;
     (async function () {
+      if(!library || ! account) return 
+      
       const code = await library.getCode(account);
       const type = code === "0x" ? AccountType.EOA : AccountType.CONTRACT;
       setContractType(type);

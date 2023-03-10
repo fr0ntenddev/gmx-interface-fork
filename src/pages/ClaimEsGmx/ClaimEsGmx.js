@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import useSWR from "swr";
 import { ethers } from "ethers";
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 import { PLACEHOLDER_ACCOUNT } from "lib/legacy";
 
 import { getContract } from "config/contracts";

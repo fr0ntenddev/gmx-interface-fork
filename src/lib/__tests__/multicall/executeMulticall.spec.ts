@@ -8,7 +8,7 @@ import { generateTestingUtils } from "eth-testing";
 import { sleep } from "lib/sleep";
 import { BigNumber, ethers } from "ethers";
 
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 import { getInjectedHandler } from "lib/wallets";
 import { useEffect } from "react";
 import { act } from "@testing-library/react";

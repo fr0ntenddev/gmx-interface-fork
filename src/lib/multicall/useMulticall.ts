@@ -1,4 +1,4 @@
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 import useSWR from "swr";
 import { CacheKey, MulticallRequestConfig, MulticallResult, SkipKey } from "./types";
 import { executeMulticall } from "./utils";

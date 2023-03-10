@@ -2,7 +2,7 @@ import "./Referrals.css";
 import React from "react";
 import { useLocalStorage } from "react-use";
 import { Trans, t } from "@lingui/macro";
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 import { useParams } from "react-router-dom";
 import SEO from "components/Common/SEO";
 import Tab from "components/Tab/Tab";

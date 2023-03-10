@@ -1,7 +1,7 @@
 import React from "react";
 import useSWR from "swr";
 import { ethers } from "ethers";
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 import { useParams } from "react-router-dom";
 
 import "./Actions.css";

@@ -17,7 +17,7 @@ import RewardReader from "abis/RewardReader.json";
 import Token from "abis/Token.json";
 import GlpManager from "abis/GlpManager.json";
 
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 
 import { useGmxPrice } from "domain/legacy";
 

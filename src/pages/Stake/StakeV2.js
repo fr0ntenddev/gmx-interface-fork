@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { Trans, t } from "@lingui/macro";
-import { useWeb3React } from "@web3-react/core";
+import { useWeb3React } from "lib/useWeb3React";
 
 import Modal from "components/Modal/Modal";
 import Checkbox from "components/Checkbox/Checkbox";
