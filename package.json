@@ -65,7 +65,7 @@
     "start-win": "set PORT=3010&react-scripts start",
     "build": "INLINE_RUNTIME_CHUNK=false yarn test:ci && react-scripts build",
     "build-home": "INLINE_RUNTIME_CHUNK=false env-cmd -e production-home react-scripts build",
-    "build-app": "INLINE_RUNTIME_CHUNK=false env-cmd -e production-app yarn test:ci && react-scripts build",
+    "build-app": "INLINE_RUNTIME_CHUNK=false env-cmd -e production-app react-scripts build",
     "test": "react-scripts test",
     "test:ci": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
